@@ -1,4 +1,6 @@
-## generates random number for attacks -- 0 - 5
+# Created by Kevin Becchio
+
+# generates random number for attacks -- 0 - 5
 import random
 ## creates a delay in action prints by the entered second -- use integers only...real numbers fucks shit up
 import time
@@ -86,7 +88,8 @@ else:
 time.sleep(3)
 print("check this shit out...")
 time.sleep(2)
-print(title_Screen)
+# Displays large title text -- title_screen is a saved function
+print(title_Screen) 
 time.sleep(3)
 print("If it were 1984 you would be blown the fuck away right now.")
 time.sleep(3)
